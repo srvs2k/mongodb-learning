@@ -1,0 +1,406 @@
+{
+     "$schema": "http://json-schema.org/draft-04/schema#",
+     "definitions": {},
+     "id": "http://example.com/example.json",
+     "properties": {
+       "checksum": {
+           "default": "aa9d4b09b73c4b9f5617d0910ba19c65",
+           "description": "An explanation about the purpose of this instance.",
+           "enum": [
+               null,
+               "aa9d4b09b73c4b9f5617d0910ba19c65"
+             ],
+           "id": "/properties/checksum",
+           "title": "The checksum schema",
+           "type": [
+               "string",
+               "null"
+             ]
+         },
+       "roots": {
+           "additionalProperties": true,
+           "id": "/properties/roots",
+           "properties": {
+               "bookmark_bar": {
+                   "additionalProperties": true,
+                   "id": "/properties/roots/properties/bookmark_bar",
+                   "properties": {
+                       "children": {
+                           "additionalItems": true,
+                           "id": "/properties/roots/properties/bookmark_bar/properties/children",
+                           "items": {
+                               "additionalProperties": true,
+                               "id": "/properties/roots/properties/bookmark_bar/properties/children/items",
+                               "properties": {
+                                   "date_added": {
+                                       "default": "13143150041000000",
+                                       "description": "An explanation about the purpose of this instance.",
+                                       "enum": [
+                                           null,
+                                           "13143150041000000"
+                                         ],
+                                       "id": "/properties/roots/properties/bookmark_bar/properties/children/items/properties/date_added",
+                                       "title": "The date_added schema",
+                                       "type": [
+                                           "string",
+                                           "null"
+                                         ]
+                                     },
+                                   "id": {
+                                       "default": "3146",
+                                       "description": "An explanation about the purpose of this instance.",
+                                       "enum": [
+                                           null,
+                                           "3146"
+                                         ],
+                                       "id": "/properties/roots/properties/bookmark_bar/properties/children/items/properties/id",
+                                       "title": "The id schema",
+                                       "type": [
+                                           "string",
+                                           "null"
+                                         ]
+                                     },
+                                   "name": {
+                                       "default": "Johnston Home",
+                                       "description": "An explanation about the purpose of this instance.",
+                                       "enum": [
+                                           null,
+                                           "Johnston Home"
+                                         ],
+                                       "id": "/properties/roots/properties/bookmark_bar/properties/children/items/properties/name",
+                                       "title": "The name schema",
+                                       "type": [
+                                           "string",
+                                           "null"
+                                         ]
+                                     },
+                                   "type": {
+                                       "default": "url",
+                                       "description": "An explanation about the purpose of this instance.",
+                                       "enum": [
+                                           null,
+                                           "url"
+                                         ],
+                                       "id": "/properties/roots/properties/bookmark_bar/properties/children/items/properties/type",
+                                       "title": "The type schema",
+                                       "type": [
+                                           "string",
+                                           "null"
+                                         ]
+                                     },
+                                   "url": {
+                                       "default": "http://jdo.deere.com/en-us/financial/Pages/johnston.aspx",
+                                       "description": "An explanation about the purpose of this instance.",
+                                       "enum": [
+                                           null,
+                                           "http://jdo.deere.com/en-us/financial/Pages/johnston.aspx"
+                                         ],
+                                       "id": "/properties/roots/properties/bookmark_bar/properties/children/items/properties/url",
+                                       "title": "The url schema",
+                                       "type": [
+                                           "string",
+                                           "null"
+                                         ]
+                                     }
+                                 },
+                               "type": [
+                                   "object",
+                                   "null"
+                                 ]
+                             },
+                           "type": [
+                               "array",
+                               "null"
+                             ],
+                           "uniqueItems": false
+                         },
+                       "date_added": {
+                           "default": "13124853276804565",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "13124853276804565"
+                             ],
+                           "id": "/properties/roots/properties/bookmark_bar/properties/date_added",
+                           "title": "The date_added schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "date_modified": {
+                           "default": "0",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "0"
+                             ],
+                           "id": "/properties/roots/properties/bookmark_bar/properties/date_modified",
+                           "title": "The date_modified schema",
+                           "type": [
+                              "string",
+                               "null"
+                             ]
+                         },
+                       "id": {
+                           "default": "1",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "1"
+                             ],
+                           "id": "/properties/roots/properties/bookmark_bar/properties/id",
+                           "title": "The id schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "name": {
+                           "default": "Bookmarks bar",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "Bookmarks bar"
+                             ],
+                           "id": "/properties/roots/properties/bookmark_bar/properties/name",
+                           "title": "The name schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "type": {
+                           "default": "folder",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "folder"
+                             ],
+                           "id": "/properties/roots/properties/bookmark_bar/properties/type",
+                           "title": "The type schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         }
+                     },
+                   "type": [
+                       "object",
+                       "null"
+                     ]
+                 },
+               "other": {
+                   "additionalProperties": true,
+                   "id": "/properties/roots/properties/other",
+                   "properties": {
+                       "children": {
+                           "additionalItems": true,
+                           "id": "/properties/roots/properties/other/properties/children",
+                           "items": {
+                               "description": "This accepts anything, as long as it's valid JSON.",
+                               "title": "Empty Object"
+                             },
+                           "type": [
+                               "array",
+                               "null"
+                             ],
+                           "uniqueItems": false
+                         },
+                       "date_added": {
+                           "default": "13124853276804574",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "13124853276804574"
+                             ],
+                           "id": "/properties/roots/properties/other/properties/date_added",
+                           "title": "The date_added schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "date_modified": {
+                           "default": "0",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "0"
+                             ],
+                           "id": "/properties/roots/properties/other/properties/date_modified",
+                           "title": "The date_modified schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "id": {
+                           "default": "2",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "2"
+                             ],
+                           "id": "/properties/roots/properties/other/properties/id",
+                           "title": "The id schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "name": {
+                           "default": "Other bookmarks",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "Other bookmarks"
+                             ],
+                           "id": "/properties/roots/properties/other/properties/name",
+                           "title": "The name schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "type": {
+                           "default": "folder",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "folder"
+                             ],
+                           "id": "/properties/roots/properties/other/properties/type",
+                           "title": "The type schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         }
+                     },
+                   "type": [
+                       "object",
+                       "null"
+                     ]
+                 },
+               "synced": {
+                   "additionalProperties": true,
+                   "id": "/properties/roots/properties/synced",
+                   "properties": {
+                       "children": {
+                           "additionalItems": true,
+                           "id": "/properties/roots/properties/synced/properties/children",
+                           "items": {
+                               "description": "This accepts anything, as long as it's valid JSON.",
+                               "title": "Empty Object"
+                             },
+                           "type": [
+                               "array",
+                               "null"
+                             ],
+                           "uniqueItems": false
+                         },
+                       "date_added": {
+                           "default": "13124853276804575",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "13124853276804575"
+                             ],
+                           "id": "/properties/roots/properties/synced/properties/date_added",
+                           "title": "The date_added schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "date_modified": {
+                           "default": "0",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "0"
+                             ],
+                           "id": "/properties/roots/properties/synced/properties/date_modified",
+                           "title": "The date_modified schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "id": {
+                           "default": "3",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "3"
+                             ],
+                           "id": "/properties/roots/properties/synced/properties/id",
+                           "title": "The id schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "name": {
+                           "default": "Mobile bookmarks",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "Mobile bookmarks"
+                             ],
+                           "id": "/properties/roots/properties/synced/properties/name",
+                           "title": "The name schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         },
+                       "type": {
+                          "default": "folder",
+                           "description": "An explanation about the purpose of this instance.",
+                           "enum": [
+                               null,
+                               "folder"
+                             ],
+                           "id": "/properties/roots/properties/synced/properties/type",
+                           "title": "The type schema",
+                           "type": [
+                               "string",
+                               "null"
+                             ]
+                         }
+                     },
+                   "type": [
+                       "object",
+                       "null"
+                     ]
+                 }
+             },
+           "type": [
+              "object",
+              "null"
+             ]
+         },
+       "version": {
+          "default": 1,
+           "description": "An explanation about the purpose of this instance.",
+           "enum": [
+               null,
+               1
+             ],
+           "exclusiveMaximum": false,
+           "exclusiveMinimum": false,
+           "id": "/properties/version",
+           "title": "The version schema",
+           "type": [
+               "integer",
+               "null"
+             ]
+         }
+     },
+     "type": [
+       "object",
+       "null"
+     ]
+   }
